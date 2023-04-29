@@ -9,7 +9,23 @@
   </head>
   <body>
     <canvas id="canvas"></canvas>
-
+    <nav>
+      <ul>
+        <li><img src="./svgs/pencil.svg" alt="Draw" id="pencil-button" /></li>
+        <li><img src="./svgs/eraser.svg" alt="Eraser" id="eraser-button" /></li>
+        <li><input type="color" placeholder="black" id="color" /></li>
+        <li>
+          <input
+            type="number"
+            min="1"
+            max="100"
+            step="1"
+            placeholder="1"
+            id="strong-size"
+          />
+        </li>
+      </ul>
+    </nav>
     <script src="./main.js"></script>
   </body>
 </html>
